@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "26249286"))
-API_HASH = getenv("API_HASH", "4e3bf0b014fda4ac752e8f4ab854279b")
+API_ID = int(getenv("API_ID", "25504446"))
+API_HASH = getenv("API_HASH", "47db27cde56c3e4690e244e6de10f919")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7608476761:AAHOYX1Kq92KF-4YuN5vlCAePqzexK8w3LI")
+BOT_TOKEN = getenv("BOT_TOKEN", "7608476761:AAHXq8X-MBgl5WnEmD__XMeMzTX3MsXsbaY")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicbotxd:musicbotxd@cluster0.6thyk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicbotxd:musicbotxd@clust
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1700))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002745123292))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002616050482))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6018803920"))
+OWNER_ID = int(getenv("OWNER_ID", "7743740062"))
 
 #YOUTUBE API's 
 API_URL = getenv("API_URL", 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=your_search_query&key=AIzaSyD_iwN3MADFGdp4xCZFo4G-e04BPyFORms') #youtube song url
